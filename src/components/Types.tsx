@@ -5,3 +5,7 @@ export type ProductInfoProps = {
     price: number
   }
 };
+
+export type ChildrenProductProps = {
+  children: React.ReactNode,
+};
